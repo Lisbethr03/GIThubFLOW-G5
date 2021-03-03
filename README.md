@@ -1,6 +1,13 @@
-# GIThubFLOW-G5
-Presentación de los integrantes del grupo
-Imagen de Introductoria
+# FLUJO DE TRABAJO - GRUPO 5
+## Integrantes
+- Lisbeth Romero
+- Kardelis Aquino
+- Chelsy Rosario
+- Paulette Cruz
+
+## Git & Github
+![image](https://user-images.githubusercontent.com/77154429/109735933-f2e15b00-7b99-11eb-9aff-42d0a1ad73d8.png)
+
 # Tabla de Contenido
 1. Introducción
 2. Temas Desarrollados:
@@ -22,6 +29,29 @@ comunidad y un conjunto de herramientas en GitHub que pueden
 ayudarte a hacerlo todavía mejor.
 
 # Desarrollo
+
+## Que es GIT
+Hoy en día, Git es, con diferencia, el sistema de control de 
+versiones moderno más utilizado del mundo. 
+Git es un proyecto de código abierto maduro y con un mantenimiento 
+activo que desarrolló originalmente Linus Torvalds, el creador 
+del kernel del sistema operativo Linux.
+Las características básicas de rendimiento de Git son muy sólidas 
+en comparación con muchas otras alternativas. 
+
+La confirmación de nuevos cambios, la ramificación, la fusión y la comparación 
+de versiones anteriores se han optimizado en favor del rendimiento. Los algoritmos 
+implementados en Git aprovechan el profundo conocimiento sobre los atributos comunes 
+de los auténticos árboles de archivos de código fuente, cómo suelen modificarse 
+con el paso del tiempo y cuáles son los patrones de acceso.
+Git se ha diseñado con la principal prioridad de conservar la integridad del código 
+fuente gestionado. El contenido de los archivos y las verdaderas relaciones entre estos 
+y los directorios, las versiones, las etiquetas y las confirmaciones, todos ellos objetos 
+del repositorio de Git, están protegidos con un algoritmo de hash criptográficamente 
+seguro llamado "SHA1". De este modo, se salvaguarda el código y el historial de cambios 
+frente a las modificaciones accidentales y maliciosas, y se garantiza que el historial 
+sea totalmente trazable.
+
 ## GITHUB-FLOW
 
 ![Open source tool for bug hunters searches for leaked secrets in GitHub  commits | The Daily Swig](https://portswigger.net/cms/images/54/14/6efb9bc5d143-article-190612-github-body-text.jpg)
@@ -42,7 +72,9 @@ Github es lo que se denomina una forja, un repositorio de proyectos que usan Git
 5. Fusiona la solicitud de extracción una vez que la rama esté lista para ser fusionada.
 6. Organiza tus ramas utilizando el botón de eliminación de la solicitud de extracción o en la página de ramas.
 
+
 ## Diferencias
+
 **git-flow:**
 En git-flow se gestionan varias ramas con objetivos 
 diferentes, por ejemplo, hay una rama de desarrollo, 
