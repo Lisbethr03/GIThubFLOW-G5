@@ -1,6 +1,13 @@
 # GIThubFLOW-G5
-Presentación de los integrantes del grupo
-Imagen de Introductoria
+## Integrantes
+- Lisbeth Romero
+- Kardelis Aquino
+- Chelsy Rosario
+- Paulette Cruz
+
+## Git & Github
+![image](https://user-images.githubusercontent.com/77154429/109735933-f2e15b00-7b99-11eb-9aff-42d0a1ad73d8.png)
+
 # Tabla de Contenido
 1. Introducción
 2. Temas Desarrollados:
