@@ -52,6 +52,17 @@ seguro llamado "SHA1". De este modo, se salvaguarda el código y el historial de
 frente a las modificaciones accidentales y maliciosas, y se garantiza que el historial 
 sea totalmente trazable.
 
+# Gitflow
+
+Git flow, que como su nombre indica, es un flujo de trabajo aplicado a un repositorio Git. [Vincent Driessen](https://nvie.com/posts/a-successful-git-branching-model/) fue el encargado de popularizarlo, definiendo un modelo estricto de ramificación diseñado en torno a los lanzamientos del proyecto. Es ideal para proyectos que lleven una planificación de entregas iterativas. Permite la paralelización del desarrollo mediante ramas independientes para la preparación, mantenimiento y publicación de versiones del proyecto así como soporta la reparación de errores en cualquier momento.
+
+Todo proyecto, por defecto, debería tener al menos dos ramas infinitas para su desarrollo. Esta metodología define que deben existir dos ramas principales:
+
+1.  master
+2. develop
+
+Anque también se emplean ramas de apoyo, llamadas feature branch, reléase branch y hotfix.
+
 ## GITHUB-FLOW
 
 ![Open source tool for bug hunters searches for leaked secrets in GitHub  commits | The Daily Swig](https://portswigger.net/cms/images/54/14/6efb9bc5d143-article-190612-github-body-text.jpg)
