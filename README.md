@@ -72,6 +72,37 @@ Github es lo que se denomina una forja, un repositorio de proyectos que usan Git
 5. Fusiona la solicitud de extracción una vez que la rama esté lista para ser fusionada.
 6. Organiza tus ramas utilizando el botón de eliminación de la solicitud de extracción o en la página de ramas.
 
+## Comandos utilizados en Git
+![Comandos básicos de Git que debes conocer | EDteam](https://edteam-media.s3.amazonaws.com/community/original/fc43b465-dbfb-465e-9705-b38d230452fc.jpg)
+![Comandos básicos de Git (Parte 2) | Tecnologias de la informacion y  comunicacion, Informatica programacion, Desarrollo de software](https://i.pinimg.com/originals/e5/5b/5f/e55b5febbeb023f3cea15ce4e015f8c0.jpg)
+#### El comando  `git branch`
+
+Hasta el momento, lo que habíamos realizado con este comando era única y exclusivamente la creación de una nueva rama con  `git branch nueva_rama`. Sin embargo, este comando nos proporciona más opciones interesantes
+![Resumen de comandos de Git y GitHub - aprendiendo ingeniería](http://aprendiendoingenieria.es/wp-content/uploads/2017/07/comandos-de-git-Ramas.png)
+
+-   Mostrar un listado de las ramas del proyecto. Para ello, ejecutaremos la orden  `git branch`. En la siguiente captura de pantalla verás el resultado de ejecutarlo. Si te fijas, delante de una de las ramas vemos un  `*` y, además, está en otro color. Esto nos indica que la rama señalada es la  **rama activa**.
+-   Si ejecutamos la orden  `git branch -v`, además de esto, nos mostrará el último  _commit_  que hemos realizado.
+- -   Por otro lado, tenemos la opción de conocer cuáles de las ramas presentes están fusionadas, y cuáles no. Para ello, utilizaremos las ordenes  `git branch --merged`  y  `git branch --no-merged`, para ver las ramas fusionadas y las no fusionadas, respectivamente.
+-
+#### Trabajando con etiquetas…
+
+Disponemos de una serie de herramientas que nos permiten trabajar con etiquetas:
+
+-   `git tag`  **lista**  las etiquetas existentes.
+-   `git tag etiqueta`  **crea**  una etiqueta ligera llamada  `etiqueta`.
+-   `git tag -a etiqueta -m "anotación"`  crea una etiqueta anotada llamada  `etiqueta`  con una anotación. Si no añades la opción  `-m`, abrirá el editor de texto que tengas configurado.
+-   `git show etiqueta`  muestra los  **datos**  asociados con la etiqueta  `etiqueta`.
+-   `git -s etiqueta -m "anotación"`  crea una etiqueta firmada con tu firma GPG.
+-   `git tag -v etiqueta`  nos permite verificar una etiqueta. firmada. Debemos disponer de la clave GPG pública del autor para poder verificarla.
+
+También es posible etiquetar un  `commit`  posteriormente.
+#### Las etiquetas y los servidores remotos
+
+Por último, indicar que la orden  `git push`  **no sube las etiquetas a un servidor remoto**, es necesario subirlas de forma explícita. Para ello utilizaremos alguna de las siguientes órdenes:
+
+-   `git push origin etiqueta`  para subir una etiqueta en concreto.
+-   `git push origin --tags`  para subir todas las etiquetas.
+
 
 ## Diferencias
 
