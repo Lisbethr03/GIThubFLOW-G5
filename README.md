@@ -21,6 +21,28 @@ de datos como programando un nuevo videojuego, existe toda una
 comunidad y un conjunto de herramientas en GitHub que pueden 
 ayudarte a hacerlo todavía mejor.
 
+# Que es GIT
+Hoy en día, Git es, con diferencia, el sistema de control de 
+versiones moderno más utilizado del mundo. 
+Git es un proyecto de código abierto maduro y con un mantenimiento 
+activo que desarrolló originalmente Linus Torvalds, el creador 
+del kernel del sistema operativo Linux.
+Las características básicas de rendimiento de Git son muy sólidas 
+en comparación con muchas otras alternativas. 
+
+La confirmación de nuevos cambios, la ramificación, la fusión y la comparación 
+de versiones anteriores se han optimizado en favor del rendimiento. Los algoritmos 
+implementados en Git aprovechan el profundo conocimiento sobre los atributos comunes 
+de los auténticos árboles de archivos de código fuente, cómo suelen modificarse 
+con el paso del tiempo y cuáles son los patrones de acceso.
+Git se ha diseñado con la principal prioridad de conservar la integridad del código 
+fuente gestionado. El contenido de los archivos y las verdaderas relaciones entre estos 
+y los directorios, las versiones, las etiquetas y las confirmaciones, todos ellos objetos 
+del repositorio de Git, están protegidos con un algoritmo de hash criptográficamente 
+seguro llamado "SHA1". De este modo, se salvaguarda el código y el historial de cambios 
+frente a las modificaciones accidentales y maliciosas, y se garantiza que el historial 
+sea totalmente trazable.
+
 # Diferencias
 **git-flow:**
 En git-flow se gestionan varias ramas con objetivos 
