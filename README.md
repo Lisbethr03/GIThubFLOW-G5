@@ -1,4 +1,4 @@
-# GIThubFLOW-G5
+# FLUJO DE TRABAJO - GRUPO 5
 ## Integrantes
 - Lisbeth Romero
 - Kardelis Aquino
@@ -28,7 +28,9 @@ de datos como programando un nuevo videojuego, existe toda una
 comunidad y un conjunto de herramientas en GitHub que pueden 
 ayudarte a hacerlo todavía mejor.
 
-# Que es GIT
+# Desarrollo
+
+## Que es GIT
 Hoy en día, Git es, con diferencia, el sistema de control de 
 versiones moderno más utilizado del mundo. 
 Git es un proyecto de código abierto maduro y con un mantenimiento 
@@ -50,7 +52,29 @@ seguro llamado "SHA1". De este modo, se salvaguarda el código y el historial de
 frente a las modificaciones accidentales y maliciosas, y se garantiza que el historial 
 sea totalmente trazable.
 
-# Diferencias
+## GITHUB-FLOW
+
+![Open source tool for bug hunters searches for leaked secrets in GitHub  commits | The Daily Swig](https://portswigger.net/cms/images/54/14/6efb9bc5d143-article-190612-github-body-text.jpg)
+Github es lo que se denomina una forja, un repositorio de proyectos que usan Git como sistema de control de versiones. Es la forja más popular, ya que alberga más de 10 millones de repositorios. Debe su popularidad a sus funcionalidades sociales, principalmente dos: la posibilidad de hacer forks de otros proyectos y la posibilidad de cooperar aportando código para arreglar errores o mejorar el código. Si bien, no es que fuera una novedad, sí lo es lo fácil que resulta hacerlo.   Creado en 2011 por GitHub 11​ y es la forma de trabajo sugerida por las funcionalidades propias de GitHub.  Alguna de sus caracteristicas son:
+
+-   Un wiki para documentar el proyecto, que usa MarkDown como lenguaje de marca.
+-   Un portal web para cada proyecto.
+-   Funcionalidades de redes sociales como followers.
+-   Gráficos estadísticos.
+-   Revisión de código y comentarios.
+-   Sistemas de seguimiento de incidencias.
+
+####  Seguir el flujo de GitHub 
+1. Crea una rama de un repositorio.
+2. Crea, edita, renombra, mueve o elimina archivos.
+3. Envía una solicitud de extracción desde tu rama con tus modificaciones propuestas para iniciar un debate.
+4. Realiza modificaciones en tu rama, según sea necesario. Tu solicitud de extracción se actualizará de manera automática.
+5. Fusiona la solicitud de extracción una vez que la rama esté lista para ser fusionada.
+6. Organiza tus ramas utilizando el botón de eliminación de la solicitud de extracción o en la página de ramas.
+
+
+## Diferencias
+
 **git-flow:**
 En git-flow se gestionan varias ramas con objetivos 
 diferentes, por ejemplo, hay una rama de desarrollo, 
@@ -86,5 +110,7 @@ Flow es más simple, porque no pasan por ramas consecutivas de desarrollo.
 GitHub propone que todas las ramas de desarrollo vayan a master una 
 vez aprobada y que la liberación de versiones se haga por medio de 
 tags e instantáneas release.
+
+
 
 
