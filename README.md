@@ -154,5 +154,24 @@ vez aprobada y que la liberación de versiones se haga por medio de
 tags e instantáneas release.
 
 
+## Imagenes relacionadas
 
+
+![Git y Git Flow](https://camo.githubusercontent.com/38f113b96a368dfb7f634d2f2da97e7b8c748042d2a284b97c3fad048bb3ff55/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f323733322f312a6d74736b3366515f4252656d466964686b656c3364412e706e67)
+
+![Git Flow](https://miro.medium.com/max/638/0*PRJYeVCeztuOuddN.jpg)
+
+
+
+## Conclusión.
+
+
+No existe un flujo de trabajo de Git universal. Como se ha indicado anteriormente, es muy importante desarrollar un flujo de trabajo de Git que suponga una mejora productiva para tu equipo. Además de la cultura de los participantes del grupo, el flujo de trabajo debe ampliar la cultura empresarial. Las funciones de Git, como las ramas y las etiquetas, deben complementar la planificación de publicación de tu empresa. Si tu equipo usa software de gestión de proyectos con seguimiento de tareas, puede que quieras usar ramas que se correspondan con las tareas en curso. Es recomendable probar, sin embargo, cada quien tiene su forma y debe ser respetada. 
+
+
+## Bibliografía.
+
+
+
+[https://cleventy.com/que-es-git-flow-y-como-funciona/](https://cleventy.com/que-es-git-flow-y-como-funciona/)
 
